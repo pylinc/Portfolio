@@ -677,7 +677,7 @@ a{
         font-size: 3rem;
         bottom: -8%;
         text-align: center;
-        left:20%;
+        left:50%;
         transform: translateX(-50%);
     }
 
@@ -795,6 +795,9 @@ a{
     .faded-text {
         font-size: 3.5rem;
         bottom: -6%;
+        left: 50%;  /* Add this */
+        transform: translateX(-50%);  /* Add this */
+        white-space: nowrap;  /* Add this */
     }
 
     .page-header {
@@ -904,7 +907,9 @@ a{
         height: 320px;
     }
     .faded-text{
-        left: 28%;
+        white-space: nowrap;
+        left: 50%;  
+        transform: translateX(-50%);  
         bottom: -15%;
     }
     .skills-container-right {
@@ -991,9 +996,11 @@ a{
 
     .faded-text {
         font-size: 2.5rem;
-        left:30%;
+        left: 50%;  
+        transform: translateX(-50%);  
         bottom: -13%;
         opacity: 0.6;
+        white-space: nowrap;
     }
 
     .page-header {
@@ -1138,7 +1145,8 @@ a{
     .faded-text {
         white-space: nowrap;
         font-size: 2rem;
-        left:35%;
+        left: 50%; 
+        transform: translateX(-50%);  
     }
 
     .page-header {
@@ -1212,7 +1220,10 @@ a{
     }
 
     .faded-text {
+        white-space: nowrap;
         font-size: 3rem;
+        left: 50%; 
+        transform: translateX(-50%); 
     }
 }
 
