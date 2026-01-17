@@ -674,10 +674,10 @@ a{
     }
 
     .faded-text {
-        font-size: 5rem;
+        font-size: 3rem;
         bottom: -8%;
         text-align: center;
-        left: 50%;
+        left:20%;
         transform: translateX(-50%);
     }
 
@@ -956,7 +956,9 @@ a{
     .main-section-left {
         gap: 1.2rem;
     }
-
+    .main-section-right{
+        margin-top: 2rem;
+    }
     .user-image {
         height: 180px;
         width: 160px;
@@ -984,7 +986,8 @@ a{
 
     .faded-text {
         font-size: 2.5rem;
-        bottom: -4%;
+        left:30%;
+        bottom: -13%;
         opacity: 0.6;
     }
 
